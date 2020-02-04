@@ -1,0 +1,160 @@
+/* material */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font: 400 1rem monospace;
+    color: #fff;
+    background: #333;
+    overflow-x: hidden;
+    line-height: 2rem;
+}
+
+table {
+    width: calc(100% + .5rem);
+    margin: -.25rem;
+    border-spacing: .25rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, strong, a, td, th {
+    color: inherit;
+    margin: 0 0 .25rem 0;
+    padding: 0 .5rem;
+    text-align: left;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+    width: 100%;
+    border: 1px solid #555;
+    padding: 0 .5rem;
+    background: #555;
+}
+
+button {
+    text-align: center;
+}
+
+input {
+    background: #333;
+}
+
+input:focus {
+    background: #444;
+}
+
+/* spacing */
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/* height */
+.h-1 {
+    height: 2rem;
+}
+
+.h-2 {
+    height: 4.25rem;
+}
+
+.h-3 {
+    height: 6.5rem;
+}
+
+/* display */
+.db {
+    display: block;
+}
+
+.dg {
+    display: grid;
+    grid-gap: .25rem;
+}
+
+/* grid */
+.c-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.c-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.c-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.c-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.c-6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.s-2 {
+    column-span: 2;
+}
+
+.s-3 {
+    column-span: 3;
+}
+
+.s-4 {
+    column-span: 4;
+}
+
+.s-5 {
+    column-span: 5;
+}
+
+.s-6 {
+    column-span: 6;
+}
+
+.a td {
+    background: rgba(100, 149, 237, .5);
+}
+
+/* typography */
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.ttc {
+    text-transform: capitalize;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+/* opacity */
+.o-25 {
+    opacity: .25;
+}
+
+.o-5 {
+    opacity: .5;
+}
+
+.o-75 {
+    opacity: .75;
+}
